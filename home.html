@@ -43,7 +43,7 @@
 		<div id="contact-me">
 			<div id="contact-center">
 				<div id="contact-button">
-					<a href="mailto:jo.mravca@gmail.com">Let's get in touch.</a>
+					<div id="text">Let's get in touch.</div>
 				</div>
 
 				<div id="contact-about">
@@ -134,6 +134,11 @@
 
 		$('#featured-project-3').click(function() {
 			window.open("http://jordanhamel.github.com/anonychat/");
+		});
+
+		$('#contact-button').click(function() {
+			$('#text').empty()
+			$('#text').text("jo.mravca@gmail.com").css({'font-size':16});
 		});
 
 	});
