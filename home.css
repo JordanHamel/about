@@ -103,6 +103,8 @@ body {
 	float: left;
 }
 
+/*Contact*/
+
 #contact-me {
 	width: 100%;
 	background-color: rgba(255, 255, 255, .7);
@@ -113,7 +115,6 @@ body {
 }
 
 #contact-center {
-	/*background-color: red;*/
 	width: 760px;
 	height: 100px;
 	margin: auto;
@@ -131,7 +132,7 @@ body {
 	border-radius: 10px;
 }
 
-/*#contact-button:hover {
+#contact-button:hover {
 	cursor: pointer;
 	cursor: hand;
 	margin: auto;
@@ -141,11 +142,26 @@ body {
 	margin-top: 20px;
 	background-color: #006126;
 	border-radius: 10px;
-}*/
+}
 
-#text {
-	margin-top: 19px;
-	text-align: center;
+#contact-button:active {
+	cursor: pointer;
+	cursor: hand;
+	margin: auto;
+	float: left;
+	margin-top: 20px;
+	width: 200px;
+	height: 60px;
+	background-color: #00ad45;
+	border-radius: 10px;
+	box-shadow: inset 0px 3px 3px #008B37;
+}
+
+#contact-button a {
+	padding: 25px;
+	position: absolute;
+	margin: -6px 0 0 0;
+	text-decoration: none;
 	color: white;
 	font-size: 18px;
 }
