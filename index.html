@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Jordan Hamel</title>
+	</head>
+
+	<body>
+
+		<link rel="stylesheet" type="text/css" href="home.css">
+		<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.5.min.js" type="text/javascript"></script>
+		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
+
+		<div id="head-wrap">
+			<div id="head-shot">
+				<img src="jordan2.jpg" alt="Jordan Head Shot">
+			</div>
+
+			<div id="about">
+				<div id="about-title">
+					Jordan Hamel
+				</div>
+
+				<div id="about-body">
+					Programmer, marketer and entrepreneur. Started my first business at 8 years old. Took leave from UCLA Engineering to market hack for an edtech startup, netting over 40K users in four months and press on ABC, CNN, USA Today and dozens more. Ninja of Ruby on Rails, Javascript and SQL. I&apos;m addicted to solving insanely hard puzzles and problems.
+				</div>
+			</div>
+
+			<div id="button-wrap">
+				
+					<a href="http://www.twitter.com/JordanHamel" target="_blank" class="button">Twitter</a>
+				
+					<a href="http://www.github.com/JordanHamel" target="_blank" class="button">Github</a>
+
+					<a href="http://jordanhamel.tumblr.com" target="_blank" class="button">Blog</a>
+
+					<a href="http://www.linkedin.com/pub/jordan-hamel/66/45/908/" target="_blank" class="button">Linkedin</a>
+			</div>
+
+			<div style="clear:both"></div>
+		</div>
+
+		<div id="contact-me">
+			<div id="contact-center">
+				<div id="contact-button">
+					<div id="text">Let's get in touch.</div>
+				</div>
+
+				<div id="contact-about">
+					<p>Coffee, sudokus, and hiking are all great excuses to meet up.<br />Depending on the gig, I'm available for contract & full-time work.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="right-column">
+
+			<div id="projects-wrap">
+				<div class="small-title">
+				In my spare time:
+				</div>
+
+				<div id="projects-body">
+
+					<p id="featured-project-2">
+						<img src="game-controller.png" alt="game controller">
+						<strong>Space Invaders</strong><br>
+						Retro style, built in JavaScript. 
+					<p>
+
+					<hr>
+
+					<p id="featured-project-3">
+						<img src="chatting.png" alt="people chatting">
+						<strong>Anonychat</strong><br>
+						Anonymous forum built in Rails.
+					<p>
+
+					<hr>
+
+					<p id="featured-project-1">
+						<img src="shopping-cart.png" alt="shopping cart">
+						<strong>Let's go shopping!</strong><br>
+						Ever wanted to buy a cute baby animal? If this wasn't a side project, you could buy one here!
+					<p>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="left-column">
+			<div id="skills-wrap">
+					<div class="small-title">
+						Languages I Speak/Read/Write
+					</div>
+
+					<div id="skills-body">
+						Ruby on Rails, SQL/MySQL, RSpec, JavaScript, CoffeeScript, HTML5, CSS3, French
+					</div>
+				</div>
+
+			<div id="fun-facts-wrap">
+				<div class="small-title">
+					Fun Facts
+				</div>
+
+				<div id="fun-facts-body">
+					<p>I've traveled to 10 different countries, including an entire year in France.</p>
+					<p>In 2010, I won a world championship with the Blue Devils "B" Drum and Bugle Corps.</p>
+					<p>My favorite snack? Extremely dark chocolate.</p>
+					<p>In high school, I was head drum major of our marching band for two years. Before that, I was an active trombone player in the band.</p>
+					<p>When I hang out with my mom, I love to have Sudoku races.</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="footer">
+			Built by Jordan Hamel in sunny Palo Alto <img src="sun.png" class="sun" />
+		</div>
+
+	</body>
+</html>
+
+<script type="text/javascript">
+	$(function(){
+
+		$('#featured-project-1').click(function() {
+			window.open("http://jordanhamel.github.com/ShoppingCartApp/");
+		});
+
+		$('#featured-project-2').click(function() {
+			window.open("http://jordanhamel.github.com/space-invaders/");
+		});
+
+		$('#featured-project-3').click(function() {
+			window.open("http://jordanhamel.github.com/anonychat/");
+		});
+
+		$('#contact-button').click(function() {
+			$('#text').empty()
+			$('#text').text("jo.mravca@gmail.com").css({'font-size':16});
+		});
+
+	});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
