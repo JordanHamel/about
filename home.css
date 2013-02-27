@@ -199,7 +199,7 @@ body {
 	cursor: pointer;
 	cursor: hand;
 	background-color: rgba(240, 240, 240, 0.7);
-	box-shadow: 2px 2px 2px gray;
+	box-shadow: inset 0px 3px 3px gray;
 }
 
 #featured-project-2:hover {
@@ -214,7 +214,7 @@ body {
 	cursor: pointer;
 	cursor: hand;
 	background-color: rgba(240, 240, 240, 0.7);
-	box-shadow: 2px 2px 2px gray;
+	box-shadow: inset 0px 3px 3px gray;
 }
 
 #featured-project-3:hover {
@@ -229,7 +229,7 @@ body {
 	cursor: pointer;
 	cursor: hand;
 	background-color: rgba(240, 240, 240, 0.7);
-	box-shadow: 2px 2px 2px gray;
+	box-shadow: inset 0px 3px 3px gray;
 }
 
 #projects-wrap hr {
