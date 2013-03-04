@@ -193,7 +193,7 @@ body {
 	font-weight: bold;
 }
 
-#featured-project-1, #featured-project-2, #featured-project-3 {
+#featured-project-1, #featured-project-2, #featured-project-3, #featured-project-4 {
 	padding: 20px;
 	cursor: pointer;
 	cursor: hand;
@@ -244,6 +244,21 @@ body {
 	box-shadow: inset 0px 3px 3px gray;
 }
 
+#featured-project-4:hover {
+	padding: 20px;
+	cursor: pointer;
+	cursor: hand;
+	background-color: rgba(240, 240, 240, 0.7);
+}
+
+#featured-project-4:active {
+	padding: 20px;
+	cursor: pointer;
+	cursor: hand;
+	background-color: rgba(240, 240, 240, 0.7);
+	box-shadow: inset 0px 3px 3px gray;
+}
+
 #projects-wrap hr {
 	color: black;
 	height: 3px;
@@ -256,6 +271,15 @@ body {
 	max-height: 40px;
 	float: left;
 	margin: 5px 10px 20px 0px;
+}
+
+#featured-project-4 img {
+	position: relative;
+	top: -6px;
+	max-width: 40px;
+	max-height: 40px;
+	float: left;
+	margin: 5px 10px 80px 0px;
 }
 
 /*Skills*/
